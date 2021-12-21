@@ -711,6 +711,14 @@
 			"settings": {
 				"foreground": "#82AAFF"
 			}
+		}, //meta.function-call.arguments
+		{
+			"scope": [
+				"meta.function-call.arguments"
+			],
+			"settings": {
+				"foreground": "#B5B5B5"  //"#82AAFF"
+			}
 		},
 		{
 			"scope": [
@@ -749,7 +757,7 @@
 				"constant.language",
 			],
 			"settings": {
-				"foreground": "#FF72FF"
+				"foreground": "#d786f1" // "811281"  //AE4CCE
 			}
 		},
 		{
@@ -757,9 +765,10 @@
 				"variable.parameter.function.language.special.self"
 			],
 			"settings": {
-				"foreground": "#682b7c"
+				"foreground": "#AE4CCE"
 			}
 		},
+		//"#AE4CCE"
 		{
 			"scope": [
 				"string",
@@ -833,7 +842,7 @@
 				"variable.language.special.self"
 			],
 			"settings": {
-				"foreground": "#682b7c",
+				"foreground": "#AE4CCE",
 			}
 		},
 		{
@@ -1256,7 +1265,7 @@
 		{
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#FF72FF"
+				"foreground": "#FF40FF" //"FF72FF"
 			}
 		},
 		{
@@ -1292,7 +1301,7 @@
 		{
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#AE4CCE"
+				"foreground": "#FFFF00"  // "#AE4CCE"
 			}
 		},
 		{
