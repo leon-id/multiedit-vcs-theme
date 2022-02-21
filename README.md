@@ -1,6 +1,11 @@
 # README
 ## This is the README for your extension "MultiEdit"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+
+Hello! This color theme is heavily inspired by the old-school
+MS-DOS editor MultiEdit 5.0, maybe someone will find it useful.
+Thanks!
+
+Here are some useful editor keyboard shortcuts:
 
 * Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
 * Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)

@@ -2,15 +2,17 @@
 	"name": "MultiEdit",
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
+	"terminal.integrated.fontSize": 16,
 	"colors": {
-		"activityBarBadge.background": "#87bcde",
+		"activityBarBadge.background": "#282828",
 		"editor.background": "#000072",
 		"editor.foreground": "#B5B5B5",
 		"sideBarTitle.foreground": "#bbbbbb",
-		"statusBar.background": "#87bcde",
+		"statusBar.background": "#202020",
 		"statusBar.noFolderBackground": "#e755db",
 		"terminalCursor.foreground": "#dbddf3",
 		"titleBar.border": "#000000",
+		"panel.background": "#181818",
 		//"activityBar.activeBorder": "#ffffff",
 		//"activityBar.background": "#333333",
 		//"activityBar.dropBorder": "#ffffff",
@@ -136,11 +138,11 @@
 		//"editorGroupHeader.noTabsBackground": "#000060",
 		//"editorGroupHeader.tabsBackground": "#252526",
 		//"editorGutter.addedBackground": "#587c0c",
-		//"editorGutter.background": "#000060",
+		"editorGutter.background": "#0000BF",
 		//"editorGutter.commentRangeForeground": "#c5c5c5",
 		//"editorGutter.deletedBackground": "#94151b",
 		//"editorGutter.foldingControlForeground": "#c5c5c5",
-		//"editorGutter.modifiedBackground": "#0c7d9d",
+		"editorGutter.modifiedBackground": "#0c7d9d",
 		//"editorHint.foreground": "#eeeeeeb3",
 		//"editorHoverWidget.background": "#252526",
 		//"editorHoverWidget.border": "#454545",
@@ -158,8 +160,8 @@
 		//"editorInlayHint.typeForeground": "#ffffffcc",
 		//"editorLightBulb.foreground": "#ffcc00",
 		//"editorLightBulbAutoFix.foreground": "#75beff",
-		//"editorLineNumber.activeForeground": "#c6c6c6",
-		//"editorLineNumber.foreground": "#858585",
+		"editorLineNumber.activeForeground": "#ecca09",
+		"editorLineNumber.foreground": "#CCCCCC",
 		//"editorLink.activeForeground": "#4e94ce",
 		//"editorMarkerNavigation.background": "#000060",
 		//"editorMarkerNavigationError.background": "#f14c4c",
@@ -675,6 +677,7 @@
 				"punctuation.section.function",
 				"punctuation.section.class",
 				"punctuation.separator",
+				"punctuation.parenthesis",
 			],
 			"settings": {
 				"foreground": "#33ffff",
@@ -686,6 +689,14 @@
 			],
 			"settings": {
 				"foreground": "#507A78",
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.decorator",
+			],
+			"settings": {
+				"foreground": "#009900",
 			}
 		},
 
@@ -1296,6 +1307,12 @@
 			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#FFFF00"
+			}
+		},
+		{
+			"scope": "entity.name.function.decorator",
+			"settings": {
+				"foreground": "#009900"
 			}
 		},
 		{
